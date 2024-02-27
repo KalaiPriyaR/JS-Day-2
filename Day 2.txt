@@ -1,0 +1,13 @@
+Difference between document & window objects
+
+Documnet:
+1 Each document getting loaded into a window will be called document object. It contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+2 You can access a document object either using window.document property.
+3 It is the direct child of the window object. It is aka Document Object Model (DOM).
+4 You can access it via window.document or document.
+
+Window
+1 The window object represents a window/tab containing a DOM document where as document object is property of window object that points to the DOM document loaded in that window
+2 Window object have properties and methods has same method name but the behaviour is different.
+3 It is the root level element in any web page.
+4 All the global variables are defined on the window object.
